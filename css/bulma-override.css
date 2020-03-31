@@ -1,3 +1,13 @@
+a
+{
+    color: var(--hn-item-active-color);
+}
+
+    a:hover
+    {
+        color: var(--hn-item-active-hover-color);
+    }
+
 .column
 { 
     display: flex;
