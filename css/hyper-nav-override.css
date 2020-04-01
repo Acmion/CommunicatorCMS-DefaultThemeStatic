@@ -85,7 +85,6 @@
     --hn-side-nesting-indentation: 1rem;
 }
 
-
 .hn-side .hn-item
 {
     border-left: medium solid transparent;
@@ -100,21 +99,4 @@
 .hn-active
 {
     font-weight: bold;
-}
-
-.hn-content
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.hn-content::after 
-{
-    content: attr(data-content);
-    font-weight: bold;
-    height: 0;
-    color: transparent;
-    overflow: hidden;
-    visibility: hidden;
 }
