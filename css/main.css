@@ -1,4 +1,9 @@
-﻿html
+﻿:root
+{
+    --spacing: 1rem;
+}
+
+html
 {
     font-size: 62.5%;
 }
@@ -27,4 +32,9 @@ footer
 
     background: var(--hn-bg);
 
+}
+
+.main-content
+{
+    padding: 0 var(--spacing);
 }

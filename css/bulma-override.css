@@ -8,6 +8,16 @@ a
         color: var(--hn-item-active-hover-color);
     }
 
+.button.is-primary
+{
+    background: #0057F0;
+}
+
+    .button.is-primary:hover
+    {
+        background: #0046C0;
+    }
+
 .column
 { 
     display: flex;
@@ -41,4 +51,5 @@ a
 {
     flex-grow: 1;
     flex-shrink: 0;
+    font-weight: bold;
 }
