@@ -24,6 +24,11 @@ a
     flex-direction: column;
 }
 
+.columns
+{
+    margin: 0 !important;
+}
+
 .card
 {
     flex-grow: 1;
