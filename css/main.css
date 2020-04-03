@@ -10,7 +10,6 @@ html
 
 body
 {
-    height: 1px;
     font-size: 1.6rem;
     min-height: 100vh;
 
@@ -25,11 +24,12 @@ main
 
 footer
 {
+    /*
     margin-top: 4rem;
 
     padding-top: 2rem;
     padding-bottom: 4rem;
-
+    */
 }
 
 .main-content
