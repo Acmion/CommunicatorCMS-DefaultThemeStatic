@@ -1,3 +1,9 @@
+:root
+{
+    --primary-color: #0057F0;
+    --primary-color-hover: #0046C0;
+}
+
 body
 {
     background: #020202;
@@ -15,12 +21,12 @@ a
 
 .button.is-primary
 {
-    background: #0057F0;
+    background: var(--primary-color);
 }
 
     .button.is-primary:hover
     {
-        background: #0046C0;
+        background: var(--primary-color-hover);
     }
 
 .column
