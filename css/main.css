@@ -32,13 +32,3 @@ footer
     padding: 0 var(--spacing);
 }
 
-.hn-section-brand > .hn-item [class|="ri"]
-{
-    font-size: 2.8rem;
-    font-weight: bold;
-}
-
-.hn-item [class|="ri"]
-{
-    font-size: 2.2rem;
-}

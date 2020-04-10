@@ -19,6 +19,11 @@ a
         color: var(--hn-item-active-hover-color);
     }
 
+ul
+{
+    margin-top: 0 !important;
+}
+
 .button.is-primary
 {
     background: var(--primary-color);
@@ -33,11 +38,6 @@ a
 { 
     display: flex;
     flex-direction: column;
-}
-
-.columns
-{
-    width: 100%;
 }
 
 .card
